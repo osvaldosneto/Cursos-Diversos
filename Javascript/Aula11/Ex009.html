@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Informe seu país: <input type="text" name="pais" id="p">
+    <input type="button" value="Verificar" onclick="verifica()">
+  
+    <div id = "local">
+
+    </div>
+
+    <script>
+        function verifica(){
+            var n = window.document.getElementById("p")
+            var l = window.document.getElementById("local")
+
+            if(n.value == 'brasil'){
+                l.innerHTML = `Você é brasileiro`
+            } else {
+               l.innerHTML = `Você é extrangeiro`
+            }
+        }
+    </script>
+</body>
+</html>

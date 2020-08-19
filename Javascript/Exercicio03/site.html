@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle Saldo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+       <h1>Controle de Saldo</h1>
+    </header>
+    
+    <section>
+        <div>
+            <p><input type="radio" name="op" id="d">
+            <label for="d">Depósito</label>
+            <input type="radio" name="op" id="s">
+            <label for="s">Saque</label>
+            </p>
+        </div>
+        <div id = "div1">
+            <p>
+            <input type="text" name="valor" id="valor">
+            <input type="button" value="Enviar" onclick="calcula()">
+            </p>
+        </div>
+        
+    </section>
+    <section>
+        <div id = "div2">
+            <p>
+
+            </p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <footer>
+        <P>&copy; Osvaldo</P>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTUDOS COM DOM</title>
+    <style>
+        body{
+            background: rgb(80, 112, 255);
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM </strong></p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        //fazendo modificações na árvore DOM
+        window.document.write('Escrevendo na página em javascript</br>')
+        window.document.write(document.URL+ '</br>')
+        var p1 = document.getElementsByTagName('p')[0] //acessando paragrafo [n]
+        window.document.write('Teste:'+ p1.innerText + '</br>')
+
+        var corpo = window.document.body //miudando a cor de fundo
+        corpo.style.background = 'black'
+
+        //capturando por ID
+        var d = window.document.getElementById('msg')
+        window.document.write(d.innerText)
+
+    </script>
+</body>
+</html>

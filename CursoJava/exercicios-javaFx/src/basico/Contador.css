@@ -1,0 +1,31 @@
+.conteudo{
+	-fx-background-color: #000000; /* setando o background  */
+	-fx-font-family: Oswald; /* setando a fonte  */
+}
+
+.numero{
+	-fx-text-fill: #ebf5ff; /* setando o preenchimento ao redor  */	
+	-fx-font-size: 28px;
+}
+
+.titulo{
+	-fx-text-fill: #a1cfff; /* setando o preenchimento ao redor  */	
+	-fx-font-size: 32px;
+}
+
+.botoes{
+	-fx-background-color: #a1cfff; /* setando o background  */
+	-fx-text-fill: #ebf5ff; /* setando o preenchimento ao redor  */	
+	-fx-font-size: 24px;
+	-fx-min-width: 60px;
+	-fx-min-height: 60px;
+	-fx-background-radius: 30px;
+}
+
+.verde{
+	-fx-text-fill: #0cc94c; /* setando o preenchimento ao redor  */	
+}
+
+.vermelho{
+	-fx-text-fill: #fa161d; /* setando o preenchimento ao redor  */	
+}

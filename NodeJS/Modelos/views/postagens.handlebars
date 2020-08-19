@@ -1,0 +1,13 @@
+<!--Formulário método adidiona-->
+<h1>Lista de posts</h1>
+
+<!--Formatando os dados a apresentar posts é o parâmetro que recebe-->
+{{#each post}}
+    <h1>{{titulo}}</h1>
+    <p>{{conteudo}}</p>
+    <small>{{createdAt}}</small><!--mostrando data-->
+    <small>{{id}}</small>
+    <a href="/deletar/{{id}}"><button>Deletar</button></a> <!--enviando id para deletar no banco de cados
+                                                            através do button deletar-->
+    <hr>
+{{/each}}

@@ -1,0 +1,29 @@
+body{
+    background: burlywood;
+    color: rgb(0, 0, 0);
+    font: normal 18pt Arial;
+}
+
+header{
+    color:black;
+    text-align: center;
+}
+
+div{
+    font: normal 10pt Arial;
+}
+
+section{
+    background: white;
+    border-radius: 10px; /*tamanho da borda*/
+    padding: 15px;
+    width: 250px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0,0,0,363);
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}

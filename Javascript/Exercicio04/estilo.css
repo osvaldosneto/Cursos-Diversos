@@ -1,0 +1,41 @@
+body{
+    color: black;
+    background: rgb(207, 197, 104);
+    font: normal 15pt Arial
+}
+
+header{
+    color:black;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px; /*tamanho da borda*/
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0,0,0,363);
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+
+#div1{
+    color:black;
+    text-align: left;
+    font: normal 12pt Arial;
+    width: fit-content;
+    height: fit-content;
+}
+
+.div2{
+    color:black;
+    text-align: right;
+    font: normal 15pt Arial;
+    width: fit-content;
+    height: fit-content;
+}

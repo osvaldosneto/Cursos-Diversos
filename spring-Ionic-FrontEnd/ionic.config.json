@@ -1,0 +1,7 @@
+{
+  "name": "spring-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
